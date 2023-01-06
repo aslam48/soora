@@ -249,12 +249,26 @@ const Content = () => {
         {/* social media icons  */}
 
 
+
+{/* footer  */}
+        
+<View style={{ flexDirection: "row", alignItems: "center", marginBottom: 20, marginVertical: 30, }}>
+          <View style={{ width: "100%", height: 1, backgroundColor: "black" }} />
+</View>
+
+<View style={{  marginBottom: 20, alignItems: "center"}}>
+    <Text>Copyright © 2022 Soora. All rights reserved</Text>
+</View>
+{/* footer  */}
+
+
       </View>
     </ScrollView>
   );
 };
 
 export default Content;
+
 
 const styles = StyleSheet.create({
 
