@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity,SafeAreaView } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image, TouchableOpacity,SafeAreaView,TextInput } from 'react-native'
+import React , { useState } from 'react'
 import { StatusBar } from 'expo-status-bar';
 import Constants from 'expo-constants'
 
 const NavBar = () => {
+  
   return (
     <View style={styles.container}>
 
@@ -44,6 +45,7 @@ const NavBar = () => {
 </TouchableOpacity>
 
     </View>
+   
 
     </View>
   )
@@ -62,13 +64,12 @@ const styles = StyleSheet.create({
         resizeMode: 'stretch',
     },
 
-    
-
     flex: {
         flexDirection: "row",
         justifyContent: "space-evenly",
         marginVertical:8,
         marginHorizontal:-80,
         alignItems:'center'
-    }
+    },
+    
 })

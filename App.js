@@ -8,6 +8,7 @@ export default function App() {
     <View style={styles.AppContainer}>
          <Nav/>
          <Content/>
+        
     </View>
   );
 }
