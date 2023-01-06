@@ -25,8 +25,8 @@ const NavBar = () => {
       alignItems: 'center',
       justifyContent: 'center',
       borderRadius: 15,
-      padding: 15,
-      width:145,
+      padding: 11,
+      width:124,
     }}>
 
     <Text style={{color: 'white', fontSize: 20, fontWeight: '800', textAlign: "center"}}>
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-evenly",
         marginVertical:8,
-        marginHorizontal:-68,
+        marginHorizontal:-80,
         alignItems:'center'
     }
 })

@@ -1,4 +1,4 @@
-import {StyleSheet, View, Text } from 'react-native'
+import {StyleSheet, View, Text,Image } from 'react-native'
 import React from 'react'
 
 const Content = () => {
@@ -18,6 +18,17 @@ const Content = () => {
     <Text style={{ fontSize: 40, textAlign: 'center'}}> Muslims Together</Text>
  </View>
 
+
+ <View style={styles.store}>
+ <Image
+        style={styles.logo}
+        source={require('../../assets-native/google-play.png')}/>
+
+<Image
+        style={styles.logo}
+        source={require('../../assets-native/apple-store.png')}/>
+ </View>
+
      </View>
     </View>
   )
@@ -29,9 +40,10 @@ export default Content
 const styles = StyleSheet.create({
     ItemWidth: {
         width: 300,
-        backgroundColor: "red",
         justifyContent: "center",
         alignItems: "center",
+        marginVertical:50,
+    
     },
 
     center:{
@@ -41,6 +53,17 @@ const styles = StyleSheet.create({
 
     flex__Text:{
         flexDirection: "row"
-    }
+    },
+
+    store: {
+        flexDirection: "row"
+    },
+
+    logo: {
+        width: 150,
+        height: 48,
+        resizeMode: "cover"
+      },
+    
   });
   
