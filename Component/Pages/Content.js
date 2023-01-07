@@ -177,7 +177,7 @@ const Content = () => {
                     textAlign: "center",
                   }}
                 >
-                  Contact us
+                 Notify Me
                 </Text>
               </View>
             </TouchableOpacity>
