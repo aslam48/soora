@@ -5,7 +5,6 @@ import {
   Image,
   ScrollView,
   TextInput,
-  TouchableHighlight,
   TouchableOpacity,
 } from "react-native";
 import React from "react";
@@ -60,7 +59,7 @@ const Content = () => {
       <View style={styles.center}>
         <View style={styles.ItemWidth}>
           <View style={{ flexDirection: "row", alignItems: "center" }}>
-            <View style={{ width: 20, height: 1, backgroundColor: "black" }} />
+            <View style={{ width: 20, height: 1, backgroundColor: "black", marginHorizontal:5 }} />
             <View>
               <Text
                 style={{
@@ -115,7 +114,7 @@ const Content = () => {
         {/* section 2 content */}
 
         <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <View style={{ width: 20, height: 1, backgroundColor: "black" }} />
+          <View style={{ width: 20, height: 1, backgroundColor: "black",  marginHorizontal:5}} />
           <View>
             <Text
               style={{ textAlign: "center", fontWeight: "1000", fontSize: 19 }}
