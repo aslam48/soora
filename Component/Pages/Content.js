@@ -139,7 +139,7 @@ const Content = () => {
             flexDirection: "row",
             width: window.width,
             margin: 15,
-            padding: 4,
+           
             alignItems: "center",
             justifyContent: "center",
             borderWidth: 2,
@@ -151,7 +151,7 @@ const Content = () => {
           <View style={{ flex: 1.5 }}>
             <TextInput
               onChangeText={() => {}}
-              style={{ backgroundColor: "transparent" }}
+              style={{ backgroundColor: "transparent", padding:15, marginLeft:10 }}
               placeholder="subscribe"
             />
           </View>
